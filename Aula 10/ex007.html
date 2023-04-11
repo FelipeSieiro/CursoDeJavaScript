@@ -10,7 +10,7 @@
     <h1>Soamdo valores</h1>
     <input type="number" name="txtn1" id="txtn1"> +
     <input type="number" name="txtn2" id="txtn2">
-    <input type="button" value="Somar" onclick="Somar()">
+    <input type="button" value="Somar" onclick="somar()">
     <div id="res">Resultado</div>
     <script>
         function somar(){
@@ -20,7 +20,7 @@
             var num1 = Number(tn1.value)
             var num2 = Number(tn2.value)
             var s = num1 + num2
-            res.innerHTML = `A soma entre ${num1} e ${num2} é igual a ${s}`
+            res.innerHTML = `<p>A soma entre ${num1} e ${num2} é igual a ${s}</p>`
         }
     </script>
 </body>
